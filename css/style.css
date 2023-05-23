@@ -33,21 +33,22 @@ body{
 	padding:0 0;
 	margin:0 0; 
 	font-family: 'Open Sans', sans-serif;
-	
-	
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	background-position: center;
-	background-size:cover;
+	position: relative;
 	min-height: 550px;
 }
 .header-top {
 	padding-top: 3em;
+}
+.header video {
+	position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+	z-index: -1;
 }
 .logo{
 	float:left;
@@ -148,13 +149,11 @@ nav a:focus {
 }
 .banner_center h1 {
 	color: #eee;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-size: 2.4em;
 }
 .banner_center h2 {
 	color: #eee;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-size: 2.4em;
 	padding:7px 0;
@@ -209,7 +208,6 @@ ul.wmuSliderPagination {
 .services-header h3
 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #2a404e;
@@ -219,8 +217,8 @@ ul.wmuSliderPagination {
 }
 .services-header p{
 	line-height: 1.5em;
-	font-size: 15px;
-	color: #7e7e7e;
+	font-size: 16px;
+	color: #535353;
 	padding: 25px 0;
 }
 .services-sectiongrids {
@@ -231,11 +229,11 @@ ul.wmuSliderPagination {
 	font-weight: bold;
 	padding: 15px 0;
 	color: #2a404e;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .services-grid p {
 	font-size: 15px;
-	color: #7e7e7e;
+	color: #535353;
 	padding: 0 22px;
 }
 .arrow1 {
@@ -255,7 +253,6 @@ ul.wmuSliderPagination {
 .works-header h3
 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #ef664d;
@@ -630,9 +627,8 @@ h2.resp-accordion {
 }
 .about-header h3 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	color: #2a404e;
 }
 .about-header h3 span {
@@ -654,8 +650,8 @@ h2.resp-accordion {
 	margin-top:3%; 
 }
 .about-text p {
-	font-size: 15px;
-	color: #7e7e7e;
+	font-size: 16px;
+	color: #535353;
 	line-height: 1.5em;
 }
 .about-sectiongrids{
@@ -671,7 +667,7 @@ h2.resp-accordion {
 	font-size: 17px;
 	color: #2a404e;
 	font-weight:bold;
-	text-transform: uppercase;
+	text-transform: capitalize;
 }
 .percentage {
 	float: right;
@@ -704,7 +700,6 @@ h2.resp-accordion {
 }
 .contact-header h3 {
 	font-size: 2.5em;
-	font-family: 'Arvo', serif;
 	text-transform: uppercase;
 	font-weight: 400;
 	color: #ef664d;
@@ -725,8 +720,10 @@ padding:30px 0;
 .social-icon i{
 	width:40px;
 	height:40px;
-	background: url("../images/img-sprite.png") no-repeat 0px 0px;
+	/* background: url("../images/img-sprite.png") no-repeat 0px 0px; */
 	display:inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 .social-icon i:hover{
     transition:0.5s all;
@@ -735,7 +732,7 @@ padding:30px 0;
 	-o-transition:0.5s all;
 	-ms-transition:0.5s all;
 }
-.social-icon a i.icon1{
+/* .social-icon a i.icon1{
 	background-position:0px 0px;
 }
 .social-icon a i.icon1:hover{
@@ -782,7 +779,7 @@ padding:30px 0;
 }
 .social-icon a i.icon8:hover{
 	background-position:-280px -40px;
-}
+} */
 .contact {
 	padding-bottom:4em;
 border-bottom: 1px solid#55626f;
@@ -891,7 +888,7 @@ padding-bottom: 2em;
 				width: 100%;
 			}
 			.services-header p {
-				font-size: 1em;
+				font-size: 16px;
 			}
 			.services-grid h4 {
 			   font-size: 1.2em;
@@ -1583,4 +1580,9 @@ padding-bottom: 2em;
 		.grid_box a:hover .zoom-icon {
 			top: 7px;
 		}
-		}
+	}
+a.live-url {
+	right: 10px;
+	position: absolute;
+	margin-top: 6px;
+}
