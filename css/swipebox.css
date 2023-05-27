@@ -55,6 +55,18 @@
   height: auto;
   vertical-align: middle;
 }
+#swipebox-slider .slide img[src="images/u3info/mobile-attendance-1.webp"] {
+  width: 30%;
+}
+#swipebox-slider .slide img[src="images/u3info/mobile-attendance-2.webp"] {
+  width: 30%;
+}
+#swipebox-slider .slide img[src="images/u3info/mobile-accounting-1.webp"] {
+  width: 30%;
+}
+#swipebox-slider .slide img[src="images/u3info/mobile-accounting-2.webp"] {
+  width: 30%;
+}
 
 #swipebox-action, #swipebox-caption {
   position: absolute;
