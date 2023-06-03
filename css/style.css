@@ -207,7 +207,7 @@ ul.wmuSliderPagination {
 .services-header h3
 {
 	font-size: 2.5em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 400;
 	color: #2a404e;
 }
@@ -218,7 +218,8 @@ ul.wmuSliderPagination {
 	line-height: 1.5em;
 	font-size: 16px;
 	color: #303030;
-	padding: 25px 0;
+	text-align: left;
+	padding: 25px 0 45px 0;
 }
 .services-sectiongrids {
 	text-align: center;
@@ -252,7 +253,7 @@ ul.wmuSliderPagination {
 .works-header h3
 {
 	font-size: 2.5em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 400;
 	color: #ef664d;
 }
@@ -626,7 +627,7 @@ h2.resp-accordion {
 }
 .about-header h3 {
 	font-size: 2.5em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 600;
 	color: #2a404e;
 }
@@ -647,6 +648,7 @@ h2.resp-accordion {
 	float: left;
 	width: 65%;
 	margin-top:3%; 
+	text-align: left;
 }
 .about-text p {
 	font-size: 16px;
