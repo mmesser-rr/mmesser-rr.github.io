@@ -701,7 +701,7 @@ h2.resp-accordion {
 }
 .contact-header h3 {
 	font-size: 2.5em;
-	text-transform: uppercase;
+	text-transform: capitalize;
 	font-weight: 400;
 	color: #ef664d;
 }
